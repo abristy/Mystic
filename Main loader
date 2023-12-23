@@ -1,5 +1,5 @@
 if getgenv().AlreadyExecuted then
-	return Notification(1, "SmellLikehacker Hub", "AlreadyExecuted",5)
+	return Notification(1, "Mystic Hub", "AlreadyExecuted",5)
 end
 getgenv().AlreadyExecuted = true
 task.spawn(function()
@@ -10,4 +10,4 @@ task.spawn(function()
 		end)
 	end
 end)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SmellLikeHacker/IDK/main/!Map"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/abristy/Mystic/main/Mystic%20Sakura%20Stand'))()
